@@ -104,7 +104,6 @@ html{
 /* alterações Renata */
 article{
   width: 100%;
-  height: 350px;
   line-height: 25px;
   padding: 10px;
   margin: 20px;
@@ -130,7 +129,6 @@ h1{
 }
 
 figure img{
-  width: 170px;
   padding: 0;
   margin: 0;
   border-radius: 50%;
