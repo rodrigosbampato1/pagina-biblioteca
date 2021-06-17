@@ -115,7 +115,13 @@ img{
   /* logomarca usada no footer*/
 .logo {
     width: auto;
-    height: 60px;
+    height: 72px;
+    text-align: center;
+    margin-top: 5px;
+}
+.logotit {
+    width: auto;
+    height: 72px;
     text-align: center;
     margin-top: 5px;
 }
