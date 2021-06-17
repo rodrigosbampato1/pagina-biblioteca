@@ -1,0 +1,151 @@
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+}
+html {
+    imagem de fundo : gradiente linear (para cima ,  rgba ( 0 , 0 , 0 , 1 ) 0 % ,  rgba ( 77 , 77 , 77 , 1 ) 38 % ,  rgba ( 255 , 255 , 255 , 1 ) 100 % ) ;
+    anexo de fundo : fixo;
+    repetição de fundo : sem repetição;
+    altura :  100 % ;
+    estouro : oculto;
+}
+
+
+ corpo{
+    imagem de fundo: url ('biblioteca.png');
+    repetição de fundo: sem repetição;
+    anexo de fundo: fixo;
+    tamanho do fundo: 100%;
+    
+}
+
+# menu {
+    largura :  100 % ;
+    altura :  80 px ;
+    cor de fundo : preto;
+    margem inferior :  30 px ;
+    display : flex;
+}
+
+. menu {
+    estilo de lista : nenhum;
+    preenchimento :  0 ;
+    margem :  0 ;
+    altura da linha :  60 px ;
+}
+
+. menu  li {
+    posição : relativa;
+    flutuar : esquerda;
+    margem esquerda :  68 px ;
+  }
+
+  . menu  li  a {
+      cor de fundo : preto;
+    cor :  rgb ( 224 ,  212 ,  212 );
+    decoração de texto : nenhum;
+    preenchimento :  10 px  1 px ;
+    display : bloco;
+    tamanho da fonte :  20 px ;
+    
+  }
+
+  . menu  li  a : hover {
+    fundo :  # 333 ;
+    cor :  # fff ;
+    sombra da caixa :  0  3 px  10 px  0  rgb ( 248 ,  226 ,  226 );
+    sombra da caixa :  0  3 px  10 px  0  # ccc ;
+    sombra do texto :  0 px  0 px  5 px  rgb ( 214 ,  193 ,  193 );
+  }
+  . menu  li  ul {
+    posição : absoluta;
+    topo :  80 px ;
+    esquerda :  0 ;
+    display : nenhum;
+    margem :  0 ;
+    preenchimento :  0 ;
+    margem esquerda :  -70 px ;
+  }
+
+  . menu  li : hover  ul ,
+. menu  li . over  ul {
+  display : bloco;
+}
+
+. menu  li  ul  li {
+    borda :  1 px sólido # c0c0c0 ;
+    display : bloco;
+    largura :  220 px ;
+  }
+
+  / * rodapé páginas secundárias * /
+. footer1 {
+    largura :  100 % ;
+    altura :  100 px ;
+    posição : absoluta;
+    cor de fundo : preto;
+    alinhamento de texto : centro;
+    cor : branco;
+    tamanho da fonte :  18 px ;
+    preenchimento :  0 px ;
+    margem superior :  50 px ;
+    
+  }
+  / * logomarca usada no footer * /
+. logo {
+    largura : automático;
+    altura :  60 px ;
+    alinhamento de texto : centro;
+    margem superior :  5 px ;
+}
+
+
+/ * muda Renata * /
+artigo {
+  largura :  100 % ;
+  altura :  350 px ;
+  altura da linha :  25 px ;
+  preenchimento :  10 px ;
+  margem :  20 px ;
+}
+
+figura {
+  flutuar : certo;
+  largura :  40 % ;
+  preenchimento :  0 ;
+  margem :  0  0  0  20 px ;
+}
+
+h1 {
+  margem inferior :  10 px ;
+}
+# conteudopag {
+  margem :  0 automático;
+  largura máxima :  1000 px ;
+  tamanho da fonte :  18 px ;
+  altura da linha :  25 px ;
+  alinhamento de texto : justificar;
+ 
+}
+
+figura  img {
+  largura :  170 px ;
+  preenchimento :  0 ;
+  margem :  0 ;
+  raio da borda :  50 % ;
+  borda :  4 px sólidos # ff7200 ;
+  display : bloco embutido;
+}
+
+. primeira {
+  largura :  200 px ;
+  altura : automático;
+}
+
+. segunda {
+  largura :  140 px ;
+  altura : automático;
+  posição : absoluta;
+  margem esquerda :  -20 px ;
+  margem superior :  70 px ;
+}
