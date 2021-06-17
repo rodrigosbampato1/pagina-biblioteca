@@ -1,25 +1,45 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
-html{
-    background-image:linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 38%, rgba(255,255,255,1) 100%);
+body{
+    background-image: linear-gradient(to bottom, white, black);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-
-
-/* body{
-    background-image: url('biblioteca.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    
-
-} */
-
+header{
+    width: 100vw;
+}
+.livros{
+    margin-top: 5vh;
+    width: 70vw;
+    margin-left: 15vw;
+}
+.one{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+}
+.book{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.book h2{
+    margin-bottom: 2vh;
+}
+.sinopse{
+    text-align: justify;
+    font-size: 20px;
+}
+img{
+    margin: 20px;
+    width: 10vw;
+    box-shadow: 3px 3px 10px black;
+}
 #menu{
     width: 100%;
     height: 80px;
@@ -98,53 +118,4 @@ html{
     height: 60px;
     text-align: center;
     margin-top: 5px;
-}
-
-
-/* alterações Renata */
-article{
-  width: 100%;
-  line-height: 25px;
-  padding: 10px;
-  margin: 20px;
-}
-
-figure{
-  float: right;
-  width: 40%;
-  padding: 0;
-  margin: 0 0 0 20px;
-}
-
-h1{
-  margin-bottom: 10px;
-}
-#conteudopag{
-  margin: 0 auto;
-  max-width: 1000px;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: justify;
- 
-}
-
-figure img{
-  padding: 0;
-  margin: 0;
-  border-radius: 50%;
-  border: 4px solid #ff7200;
-  display: inline-block;
-}
-
-.primeira{
-  width: 200px;
-  height: auto;
-}
-
-.segunda{
-  width: 140px;
-  height: auto;
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 70px;
 }
